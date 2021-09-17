@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f1eee3;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/* NAVBAR */
+
+nav {
+    width: 100vw;
+    align-items: center;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+    z-index: 1;
+}
+
+.topic {
+    width: 70vw;
+    max-width: 1070px;
+    min-width: 730px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.linkedin {
+    position: relative;
+    top: 18%;
+    border-radius: 1px;
+    width: 34px;
+    height: 34px;
+}
+
+#searchCamp {
+    position: relative;
+    bottom: 2%;
+    width: 235px;
+    height: 34px;
+    background: #EEF3F7;
+    border-radius: 4px;
+    border: none;
+    text-indent: 35px;
+    font-size: 12px;
+    left: -5%;
+}
+
+.loupe {
+    position: relative;
+    top: 7%;
+    z-index: 1;
+    left: 5%;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu img {
+    width: 20px;
+    height: 20px;
+}
+
+.menu li {
+    display: inline;
+    margin: 10px;
+}
+
+ul {
+    display: flex;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    line-height: 17px;
+}
+
+.secundaryPhoto {
+    background-color: #aaa;
+    display: flex;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-left: -5px;
+    margin-top: 35%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .photoName {
+    text-align: center;
+    font-size: 10px;
+    margin-right: 20%;
+  }
+
+  /* APRESENTATION */
+
+  .container {
+    margin-top: 100px;
+    width: 70vw;
+    max-width: 1070px;
+    min-width: 730px;
+    position: static;
+}
+
+.apresentationBackground {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.apresentationBack img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.primaryPhoto {
+    background-color: #aaa;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    left: 20px;
+    bottom: 100px;
+    overflow: hidden;
+    position: relative;
+}
+
+.primaryPhoto img {
+    position: absolute;
+    width: 100%;
+}
+
+.apresentation {
+    justify-content: space-between;
+    border-radius: 0px 0px 10px 10px;
+    position: relative;
+    bottom: 75px;
+    padding-left: 30px;   
+}
+
+.apresentationButton {
+    position: absolute;
+    margin-top: 11px;
+  }
+
+  .button {
+    padding: 4px 16px;
+    border-radius: 15px;
+    font-size: 11px;
+    line-height: 13px;
+    font-weight: bold;
+    color: gray;
+    border-color: gray;
+    border: 1px solid;
+    margin-right: 14px
+}
+
+  .diferent {
+    background: #0B65C2;
+    color: white;
+    
+}
+
+  .diferent:hover {
+    background-color: #063564;
+}
+
+  .comum:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+  .name {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+  }
+
+  .job {
+    font-size: 14px;
+    margin-top: 5px;
+    line-height: 17px;
+  }
+
+  .country {
+    color: gray;
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 5px;
+  }
+
+
+  /* Resumé */
+
+  .resume {
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 32px;
+    border: 2px solid #EBEBEB;
+  }
+
+  .nameExperience {
+      padding: 20px;
+      font-size: 18px;
+      line-height: 17px;
+  }
+
+  .brake {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    border-bottom: 2px solid #EBEBEB;
+  }
+
+  .brake img {
+      padding-top: 20px;
+      width: 60px;
+      height: 60px;
+  }
+
+  .experience {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    padding-right: 40px;
+  }
+
+  .experienceDetails h3 {
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 15px;
+      padding-bottom: 5px;
+  }
+
+  .experienceDetails p {
+      font-size: 12px;
+      line-height: 13px;
+  }
+
+  .experienceDetails div {
+      padding-top: 5px;
+      font-size: 12px;
+  }
+
+  .hoverStyle:hover {
+      text-decoration: underline;
+  }
+
+  .hoverStyleGray {
+      color: #666666;
+  }
+
+  .brakeFormation {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    border-bottom: 2px solid #EBEBEB;
+  }
+
+  .brakeFormation img {
+      padding-top: 20px;
+      width: 60px;
+      height: 60px;
+  }
+
