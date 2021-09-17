@@ -139,6 +139,7 @@ a {
     bottom: 100px;
     overflow: hidden;
     position: relative;
+    border: 4px solid white;
 }
 
 .primaryPhoto img {
